@@ -1,0 +1,6 @@
+f = open("file.txt","w")
+f.write("HII Am vijay\n")
+f.write("Am a python trainee Engineer in pallee telechonologices in banglore")
+f.close()
+f=open("file.txt","r")
+print(f.read())
